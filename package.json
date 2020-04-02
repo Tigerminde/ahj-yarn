@@ -1,0 +1,23 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "description": "ahj",
+  "main": "index.js",
+  "dependencies": {
+    "babel-jest": "^25.2.6",
+    "core-js": "^3.6.4",
+    "jest": "^25.2.6"
+  },
+  "devDependencies": {
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "test": "jest test-scripts test --passWithNoTests",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": "git remote add origin https://github.com/Tigerminde/ahj-yarn.git",
+  "author": "tigerminde",
+  "license": "ISC"
+}
